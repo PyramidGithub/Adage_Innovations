@@ -1,0 +1,758 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "26079c701cda213450c6",
+  "position": {
+    "x": 781.60675410184251,
+    "y": 9.062107293934405,
+    "z": 1000,
+    "height": 490.48655728419971,
+    "width": 1014.9560169206534,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "azureMap",
+    "query": {
+      "queryState": {
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "Total_Beds"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(unique_us_coc_locations.Total_Beds)",
+              "nativeQueryRef": "Sum of Total_Beds",
+              "format": "0"
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "zip"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(unique_us_coc_locations.zip)",
+              "nativeQueryRef": "First zip"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "state"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(unique_us_coc_locations.state)",
+              "nativeQueryRef": "First state"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "county_fips"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(unique_us_coc_locations.county_fips)",
+              "nativeQueryRef": "First county_fips"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "state_fips"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(unique_us_coc_locations.state_fips)",
+              "nativeQueryRef": "First state_fips"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "city"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(unique_us_coc_locations.city)",
+              "nativeQueryRef": "First city"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "census_tract"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(unique_us_coc_locations.census_tract)",
+              "nativeQueryRef": "First census_tract"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "unique_us_coc_locations"
+                        }
+                      },
+                      "Property": "census_block"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(unique_us_coc_locations.census_block)",
+              "nativeQueryRef": "First census_block"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "unique_us_coc_locations"
+                    }
+                  },
+                  "Property": "long"
+                }
+              },
+              "queryRef": "unique_us_coc_locations.long",
+              "nativeQueryRef": "long",
+              "format": "0.00"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "unique_us_coc_locations"
+                    }
+                  },
+                  "Property": "lat"
+                }
+              },
+              "queryRef": "unique_us_coc_locations.lat",
+              "nativeQueryRef": "lat",
+              "format": "0.00"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "bubbleLayer": [
+        {
+          "properties": {
+            "minBubbleRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "2L"
+                }
+              }
+            },
+            "maxRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "15L"
+                }
+              }
+            },
+            "clusteringEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "clusteredBubbleRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "15L"
+                }
+              }
+            },
+            "clusteredBubbleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "clusteredBubbleFillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#086F8B'"
+                    }
+                  }
+                }
+              }
+            },
+            "clusteredBubbleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "clusteredBubbleStrokeColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 5,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "clusteredBubbleStrokeWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "3L"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "referenceLayer": [
+        {
+          "properties": {
+            "additionalDatasource": {
+              "geoJson": {
+                "type": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'packaged'"
+                    }
+                  }
+                },
+                "name": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'spatial_output..geojson'"
+                    }
+                  }
+                },
+                "content": {
+                  "expr": {
+                    "ResourcePackageItem": {
+                      "PackageName": "RegisteredResources",
+                      "PackageType": 1,
+                      "ItemName": "spatial_output.32004993230330114.geojson"
+                    }
+                  }
+                }
+              }
+            },
+            "polygonStrokeColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#449D8C'"
+                    }
+                  }
+                }
+              }
+            },
+            "polygonStrokeWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "2L"
+                }
+              }
+            },
+            "bubbleFillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "mapControls": [
+        {
+          "properties": {
+            "showSelectionControl": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "defaultStyle": {
+              "expr": {
+                "Literal": {
+                  "Value": "'satellite'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'CoC GIS Map With Custom Service Area Geometry & Clustered Individual Locations + Map Tools'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15E5D0'"
+                    }
+                  }
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualTooltip": [
+        {
+          "properties": {
+            "themedTitleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15E5D0'"
+                    }
+                  }
+                }
+              }
+            },
+            "themedValueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15E5D0'"
+                    }
+                  }
+                }
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15E5D0'"
+                    }
+                  }
+                }
+              }
+            },
+            "themedBackground": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "border": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15E5D0'"
+                    }
+                  }
+                }
+              }
+            },
+            "foreground": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15E5D0'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "0d0ed4aa20553b0095cd",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "Total_Beds"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "de00da222935b26686d3",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "zip"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "f3c68f05b0d067225b4d",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "state"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "ad9f4b5ca5050672b5c9",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "county_fips"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "5383cd2c9b2647c7b08a",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "state_fips"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "0b03169b19d10cc9da83",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "city"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "652fc5c592d75632cb78",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "census_tract"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "beec287e911650beee17",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "unique_us_coc_locations"
+                  }
+                },
+                "Property": "census_block"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "5fa42f12a49e88d50da3",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "unique_us_coc_locations"
+              }
+            },
+            "Property": "long"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "c44536f39017b5103e2d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "unique_us_coc_locations"
+              }
+            },
+            "Property": "lat"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}
