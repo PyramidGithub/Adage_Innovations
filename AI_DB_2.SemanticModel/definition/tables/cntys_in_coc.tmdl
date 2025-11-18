@@ -1,0 +1,86 @@
+table cntys_in_coc
+	lineageTag: 1ef103b2-d5f1-41ba-ad86-5d01029300f1
+
+	column hudnum
+		dataType: string
+		lineageTag: 69dda6ab-8583-4096-b148-277f09900867
+		summarizeBy: none
+		sourceColumn: hudnum
+
+		annotation SummarizationSetBy = Automatic
+
+	column state_name
+		dataType: string
+		lineageTag: 2d02247a-5686-4409-85f6-9f0651e670dd
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: state_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column cty_name
+		dataType: string
+		lineageTag: a8f33472-bce3-4e5b-8267-bf4e08f7cdc9
+		dataCategory: County
+		summarizeBy: none
+		sourceColumn: cty_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column aland
+		dataType: double
+		lineageTag: 8bf77944-cb67-42eb-a709-dbe1b4bd5bd4
+		summarizeBy: sum
+		sourceColumn: aland
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column county_fips
+		dataType: string
+		lineageTag: bec3335d-f36a-4a4f-8880-e2549327d565
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: county_fips
+
+		annotation SummarizationSetBy = Automatic
+
+	column geoid
+		dataType: string
+		isKey
+		lineageTag: 6ef8fc61-b1e3-470a-a1ad-5f2c59c197f6
+		dataCategory: County
+		summarizeBy: none
+		sourceColumn: geoid
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'state_name Hierarchy'
+		lineageTag: e25eca3f-94e5-4107-abeb-bf63ae365150
+
+		level state_name
+			lineageTag: 8002ee2c-db5e-4280-8fb0-ad2ebffe03b7
+			column: state_name
+
+		level hudnum
+			lineageTag: 2b1d9cb6-47cc-430c-8d58-01a24976e298
+			column: hudnum
+
+		level cty_name
+			lineageTag: c01c2a61-d9cc-4bcc-9e48-8ad544c25247
+			column: cty_name
+
+	partition cntys_in_coc = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("dsn=PostgreSQL35W", [HierarchicalNavigation=true]),
+				    GIS_Database = Source{[Name="GIS",Kind="Database"]}[Data],
+				    public_Schema = GIS_Database{[Name="public",Kind="Schema"]}[Data],
+				    cntys_in_coc_Table = public_Schema{[Name="cntys_in_coc",Kind="Table"]}[Data]
+				in
+				    cntys_in_coc_Table
+
+	annotation PBI_ResultType = Table
+

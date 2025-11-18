@@ -1,0 +1,183 @@
+table unique_us_coc_locations
+	lineageTag: 69c2922b-dfd4-4d7d-a1b8-65704488bb07
+
+	column id
+		dataType: double
+		lineageTag: 66ed3bb7-7861-442c-86e4-cd2a2dd436de
+		summarizeBy: none
+		sourceColumn: id
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lat
+		dataType: double
+		lineageTag: fb2e15a3-4bd7-4adf-9f0a-bcd5967b217c
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: lat
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column long
+		dataType: double
+		lineageTag: 8ba03fc4-be75-440c-bc75-31e20c0576a7
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: long
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column geom
+		dataType: string
+		lineageTag: 62ec35cd-6474-4015-bef0-4e366ae3e12a
+		summarizeBy: none
+		sourceColumn: geom
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 9c14e496-5f16-4842-a5bb-7166ae41777c
+		dataCategory: County
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: 0eafbce7-68d4-4e10-8000-fb2141629e20
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column zip
+		dataType: string
+		lineageTag: 638e1934-f6c2-4f86-883d-9fefaa372350
+		dataCategory: PostalCode
+		summarizeBy: none
+		sourceColumn: zip
+
+		annotation SummarizationSetBy = Automatic
+
+	column state_fips
+		dataType: string
+		lineageTag: d31654ab-dc8c-48d9-b160-f06efbe3aca5
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: state_fips
+
+		annotation SummarizationSetBy = Automatic
+
+	column county_fips
+		dataType: string
+		lineageTag: 79954173-3215-434d-b8c0-ce8584e4c15d
+		dataCategory: County
+		summarizeBy: none
+		sourceColumn: county_fips
+
+		annotation SummarizationSetBy = Automatic
+
+	column census_tract
+		dataType: string
+		lineageTag: e04d6c3f-4998-4199-abdc-5f7b4b7b21a0
+		summarizeBy: none
+		sourceColumn: census_tract
+
+		annotation SummarizationSetBy = Automatic
+
+	column census_block
+		dataType: string
+		lineageTag: 13212cf4-8b58-40ca-bef8-73bd3f79763b
+		summarizeBy: none
+		sourceColumn: census_block
+
+		annotation SummarizationSetBy = Automatic
+
+	column HudNum
+		dataType: string
+		lineageTag: 677967a6-0d00-45f3-82d5-c94d5a708046
+		summarizeBy: distinctCount
+		sourceColumn: HudNum
+
+		annotation SummarizationSetBy = User
+
+	column Organization_Name
+		dataType: string
+		lineageTag: b2cb21ef-9698-4bd5-8693-70e20600f37c
+		summarizeBy: none
+		sourceColumn: Organization_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Pit_Count
+		dataType: double
+		lineageTag: df13bdbe-da18-4ebe-9797-dadf3cf4519a
+		summarizeBy: sum
+		sourceColumn: Pit_Count
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Total_Beds
+		dataType: double
+		lineageTag: 8196639a-e2c5-4a70-aa6b-721219331ee2
+		summarizeBy: sum
+		sourceColumn: Total_Beds
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	hierarchy 'state Hierarchy'
+		lineageTag: c8da7999-78db-4e6a-81ee-5e4c59bc149b
+
+		level state
+			lineageTag: 8f8364f5-3d42-40b9-b71d-7b882604a250
+			column: state
+
+		level HudNum
+			lineageTag: 7a2a62f0-2a72-4aee-9aa4-71571d07243c
+			column: HudNum
+
+		level county_fips
+			lineageTag: adc1b287-f622-447b-a496-e18c9367af23
+			column: county_fips
+
+		level census_block
+			lineageTag: ba7f1c2e-b9ec-452e-8b23-e8b5b7d49320
+			column: census_block
+
+		level census_tract
+			lineageTag: 67dbe8d0-36e0-44a4-aea8-2b298b919b44
+			column: census_tract
+
+		level city
+			lineageTag: d07e054c-66eb-4460-9baa-18f99225ea08
+			column: city
+
+	partition unique_us_coc_locations = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("dsn=PostgreSQL35W", [HierarchicalNavigation=true]),
+				    GIS_Database = Source{[Name="GIS",Kind="Database"]}[Data],
+				    public_Schema = GIS_Database{[Name="public",Kind="Schema"]}[Data],
+				    unique_us_coc_locations_Table = public_Schema{[Name="unique_coc_locations",Kind="Table"]}[Data],
+				    #"Removed Columns" = Table.RemoveColumns(unique_us_coc_locations_Table,{"O/V_Beds"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

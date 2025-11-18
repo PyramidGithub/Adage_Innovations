@@ -1,0 +1,27 @@
+relationship AutoDetected_7f04198e-88d7-46b3-af7a-4ea968c29c44
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: CoC.'CoC Number'
+	toColumn: trend.Hudnum
+
+relationship AutoDetected_31eab1b7-572d-40f0-9f81-23f53e7269f0
+	fromColumn: cntys_in_coc.hudnum
+	toColumn: coc_locations_service_area.hudnum
+
+relationship AutoDetected_e1edc82a-d0f0-48f4-b479-189c8892469d
+	fromColumn: unique_us_coc_locations.HudNum
+	toColumn: coc_locations_service_area.hudnum
+
+relationship 794aab94-ab4d-299f-7846-2d0d2a6dfff8
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: trend.Hudnum
+	toColumn: coc_locations_service_area.hudnum
+
+relationship 238d2f16-fd2c-4728-8525-edd05ac09885
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: coc_locations_service_area.coc_name
+	toColumn: CoC.'CoC Name'
+

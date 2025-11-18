@@ -1,0 +1,409 @@
+table trend
+	lineageTag: 1e382b21-be42-424e-bd8b-5841faae2c9c
+
+	column Hudnum
+		dataType: string
+		isKey
+		lineageTag: cf12d4fe-e1f1-42ce-9fd5-b129509a5eda
+		dataCategory: Place
+		isDefaultLabel
+		summarizeBy: none
+		sourceColumn: Hudnum
+
+		annotation SummarizationSetBy = Automatic
+
+	column State
+		dataType: string
+		lineageTag: 457c83f3-2114-484e-a405-26813dd21000
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: State
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CoC Name'
+		dataType: string
+		lineageTag: 9704f74a-e491-49b8-a9c7-14c61a15d570
+		summarizeBy: none
+		sourceColumn: CoC Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CoC Category'
+		dataType: string
+		lineageTag: 75852974-9f5a-40b9-92d9-e69615871127
+		summarizeBy: none
+		sourceColumn: CoC Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Count Types'
+		dataType: string
+		lineageTag: bb6f8bef-3533-426c-8f6b-1c2f6cd0892f
+		summarizeBy: none
+		sourceColumn: Count Types
+
+		annotation SummarizationSetBy = Automatic
+
+	column per_Total_change_24_10_per
+		dataType: double
+		lineageTag: bd7e998d-fbb9-495d-bda2-59e3edd3625f
+		summarizeBy: sum
+		sourceColumn: per_Total_change_24_10_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column per_Total_change_24_10
+		dataType: double
+		lineageTag: 1d43f757-b16c-449a-9d79-2bc7a3109a40
+		summarizeBy: sum
+		sourceColumn: per_Total_change_24_10
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2024
+		dataType: int64
+		formatString: 0
+		lineageTag: b08b38f0-591a-4f6f-8d5e-5bf88c5dbe6b
+		summarizeBy: sum
+		sourceColumn: 2024
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023
+		dataType: int64
+		formatString: 0
+		lineageTag: 951b94e2-f492-4abb-b284-47b458f10628
+		summarizeBy: sum
+		sourceColumn: 2023
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022
+		dataType: int64
+		formatString: 0
+		lineageTag: 69fa070f-64df-4c7c-b8bb-a06f3ba5b883
+		summarizeBy: sum
+		sourceColumn: 2022
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021
+		dataType: double
+		lineageTag: 70164253-2ad2-45b7-8292-32738cf24678
+		summarizeBy: sum
+		sourceColumn: 2021
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2020
+		dataType: int64
+		formatString: 0
+		lineageTag: ed05fc2e-9b6d-4e77-af0b-6a8160d57160
+		summarizeBy: sum
+		sourceColumn: 2020
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2019
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 2148467b-5deb-495a-950f-8af78feb5f75
+		summarizeBy: sum
+		sourceColumn: 2019
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2018
+		dataType: int64
+		formatString: 0
+		lineageTag: 8ae5f01a-7a5d-4c75-9085-ae27f57c1a7e
+		summarizeBy: sum
+		sourceColumn: 2018
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2017
+		dataType: int64
+		formatString: 0
+		lineageTag: bf3be0e4-b24e-4097-a315-2e2c91bc9a0d
+		summarizeBy: sum
+		sourceColumn: 2017
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2016
+		dataType: int64
+		formatString: 0
+		lineageTag: 6f3d0121-3011-4281-84f5-a60be983a8e6
+		summarizeBy: sum
+		sourceColumn: 2016
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2015
+		dataType: int64
+		formatString: 0
+		lineageTag: 26a505b1-8d46-4480-b447-3a7ffc8dd4dd
+		summarizeBy: sum
+		sourceColumn: 2015
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2014
+		dataType: int64
+		formatString: 0
+		lineageTag: 5a4b1f0c-e0ea-4e57-9605-6daab9cbd52f
+		summarizeBy: sum
+		sourceColumn: 2014
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2013
+		dataType: int64
+		formatString: 0
+		lineageTag: db54d6f8-138e-4c04-b8f4-21a97b358b76
+		summarizeBy: sum
+		sourceColumn: 2013
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2012
+		dataType: int64
+		formatString: 0
+		lineageTag: ace5a96d-9051-48c3-ab9c-a23bca9d9985
+		summarizeBy: sum
+		sourceColumn: 2012
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2011
+		dataType: int64
+		formatString: 0
+		lineageTag: 4c81a4ad-9ef6-4ab4-aaae-6b4b903d5f5c
+		summarizeBy: sum
+		sourceColumn: 2011
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2010
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b129c5c-8f43-489a-95f7-25797778282f
+		summarizeBy: sum
+		sourceColumn: 2010
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2024_per_of_Total
+		dataType: double
+		lineageTag: 3c7e8295-3162-4ffb-bbb0-63c43d690116
+		summarizeBy: sum
+		sourceColumn: 2024_per_of_Total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2020_per_of_Total
+		dataType: double
+		lineageTag: da5ee8f3-7e06-47d6-a54e-8fb8d38b1563
+		summarizeBy: sum
+		sourceColumn: 2020_per_of_Total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2015_per_of_Total
+		dataType: double
+		lineageTag: 83436179-8b49-4acb-a140-9da65f24df9f
+		summarizeBy: sum
+		sourceColumn: 2015_per_of_Total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2010_per_of_Total
+		dataType: double
+		lineageTag: 7352fd21-df51-4f40-8686-9e7198a0f5e1
+		summarizeBy: sum
+		sourceColumn: 2010_per_of_Total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2024_per
+		dataType: double
+		lineageTag: 83c57af8-2f8a-40d3-b139-2eafb10d3ecb
+		summarizeBy: sum
+		sourceColumn: 2024_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2023_per
+		dataType: double
+		lineageTag: 9e9a92f9-ffa9-4970-bb2c-2ca99926bbb8
+		summarizeBy: sum
+		sourceColumn: 2023_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2022_per
+		dataType: double
+		lineageTag: 88e40dca-2465-42e3-a583-58fb77555694
+		summarizeBy: sum
+		sourceColumn: 2022_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2021_per
+		dataType: string
+		lineageTag: ab374d59-6e55-4205-a6fd-24d95c1e433f
+		summarizeBy: none
+		sourceColumn: 2021_per
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2020_per
+		dataType: double
+		lineageTag: d23c4be5-7314-427d-9ffa-5f9898b6bdd4
+		summarizeBy: sum
+		sourceColumn: 2020_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2019_per
+		dataType: double
+		lineageTag: f8a2ffeb-390a-4a6f-be7e-a74acde49df7
+		summarizeBy: sum
+		sourceColumn: 2019_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2018_per
+		dataType: double
+		lineageTag: 2376ac70-e556-444e-84c8-40277583758b
+		summarizeBy: sum
+		sourceColumn: 2018_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2017_per
+		dataType: double
+		lineageTag: d6f8462c-3e10-493b-8cf3-ef36775d3e6b
+		summarizeBy: sum
+		sourceColumn: 2017_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2016_per
+		dataType: double
+		lineageTag: db3e49a5-098e-4b76-8a05-09bead9b8d8d
+		summarizeBy: sum
+		sourceColumn: 2016_per
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2015_per
+		dataType: string
+		lineageTag: 6b2cb725-d1ef-4935-a91d-7bb9fe67c8d9
+		summarizeBy: none
+		sourceColumn: 2015_per
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2014_per
+		dataType: string
+		lineageTag: 8d9ac258-a186-4205-bcd4-4988931a3702
+		summarizeBy: none
+		sourceColumn: 2014_per
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2013_per
+		dataType: string
+		lineageTag: be3c2c0d-c3f4-4df3-ab9f-de082de93e2c
+		summarizeBy: none
+		sourceColumn: 2013_per
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2012_per
+		dataType: string
+		lineageTag: 292fba77-8e8d-4af7-850f-190c640d1994
+		summarizeBy: none
+		sourceColumn: 2012_per
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2011_per
+		dataType: string
+		lineageTag: e558655f-6651-4d58-b257-dd04bc851fe6
+		summarizeBy: none
+		sourceColumn: 2011_per
+
+		annotation SummarizationSetBy = Automatic
+
+	column County
+		dataType: string
+		lineageTag: d0cab2a4-6c38-4cfd-8849-47d69fa2dd31
+		dataCategory: County
+		summarizeBy: none
+		sourceColumn: County
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021_1
+		dataType: int64
+		formatString: 0
+		lineageTag: 9bf6392b-5d88-4e17-aaf6-7909913eb23d
+		summarizeBy: sum
+		sourceColumn: 2021_1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition trend = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("D:\Users.P-HPC\Admin\My Documents\Excel\2024_pit.xlsx"), null, true),
+				    trend_Sheet = Source{[Item="trend",Kind="Sheet"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(trend_Sheet,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type any}, {"Column7", type any}, {"Column8", Int64.Type}, {"Column9", Int64.Type}, {"Column10", Int64.Type}, {"Column11", type number}, {"Column12", Int64.Type}, {"Column13", Int64.Type}, {"Column14", Int64.Type}, {"Column15", Int64.Type}, {"Column16", Int64.Type}, {"Column17", Int64.Type}, {"Column18", Int64.Type}, {"Column19", Int64.Type}, {"Column20", Int64.Type}, {"Column21", Int64.Type}, {"Column22", Int64.Type}, {"Column23", type any}, {"Column24", type any}, {"Column25", type any}, {"Column26", type any}, {"Column27", type any}, {"Column28", type any}, {"Column29", type any}, {"Column30", type any}, {"Column31", type any}, {"Column32", type any}, {"Column33", type any}, {"Column34", type any}, {"Column35", type any}, {"Column36", type any}, {"Column37", type any}, {"Column38", type any}, {"Column39", type any}, {"Column40", type any}, {"Column41", type text}, {"Column42", Int64.Type}}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"CoC Number", type text}, {"State", type text}, {"CoC Name", type text}, {"CoC Category", type text}, {"Count Types", type text}, {"per_Total_change_24_10_per", type number}, {"per_Total_change_24_10", type number}, {"2024", Int64.Type}, {"2023", Int64.Type}, {"2022", Int64.Type}, {"2021", type number}, {"2020", Int64.Type}, {"2019", Int64.Type}, {"2018", Int64.Type}, {"2017", Int64.Type}, {"2016", Int64.Type}, {"2015", Int64.Type}, {"2014", Int64.Type}, {"2013", Int64.Type}, {"2012", Int64.Type}, {"2011", Int64.Type}, {"2010", Int64.Type}, {"2024_per_of_Total", type number}, {"2020_per_of_Total", type number}, {"2015_per_of_Total", type number}, {"2010_per_of_Total", type number}, {"2024_per", type number}, {"2023_per", type number}, {"2022_per", type number}, {"2021_per", type any}, {"2020_per", type number}, {"2019_per", type number}, {"2018_per", type number}, {"2017_per", type number}, {"2016_per", type number}, {"2015_per", type any}, {"2014_per", type any}, {"2013_per", type any}, {"2012_per", type any}, {"2011_per", type any}, {"County", type text}, {"2021_1", Int64.Type}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type1",{{"CoC Number", "Hudnum"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Exception
+
+	annotation PBI_NavigationStepName = Navigation
+

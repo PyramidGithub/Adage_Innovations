@@ -1,0 +1,567 @@
+table coc_locations_service_area
+	lineageTag: 2867394c-6e65-42ad-8735-e28699e0726f
+
+	column hudnum
+		dataType: string
+		lineageTag: fe5ba98d-25dc-45b1-aaeb-be51ca9a4c6a
+		dataCategory: Place
+		summarizeBy: none
+		sourceColumn: hudnum
+
+		annotation SummarizationSetBy = Automatic
+
+	column num_of_locations
+		dataType: int64
+		formatString: 0
+		lineageTag: 28c224c8-e2a1-4cb6-b49f-c0f626d83b42
+		summarizeBy: sum
+		sourceColumn: num_of_locations
+
+		annotation SummarizationSetBy = Automatic
+
+	column pit
+		dataType: double
+		lineageTag: 4737a4d1-c02b-41d8-8f05-81a8ec7288a3
+		summarizeBy: sum
+		sourceColumn: pit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bed_count
+		dataType: double
+		lineageTag: f6e9d288-ccf6-4771-a602-f5d3eea57725
+		summarizeBy: sum
+		sourceColumn: bed_count
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column geom_list
+		dataType: string
+		lineageTag: 37691814-9d7e-4faf-ab05-c598d650c70a
+		dataCategory: Place
+		summarizeBy: none
+		sourceColumn: geom_list
+
+		annotation SummarizationSetBy = Automatic
+
+	column objectid
+		dataType: double
+		lineageTag: 804f022d-fdf5-497c-8495-2f00ae4a610e
+		summarizeBy: sum
+		sourceColumn: objectid
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column st_name
+		dataType: string
+		lineageTag: 5e746bbf-d5ee-477c-ace4-be4bef1db8b7
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: st_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column ARD
+		dataType: double
+		lineageTag: c788e50d-0a69-490b-a540-04ca8fe76bef
+		summarizeBy: sum
+		sourceColumn: ARD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PPRN
+		dataType: double
+		lineageTag: 26cf0bd4-d501-4110-9c79-8559e314ec67
+		summarizeBy: sum
+		sourceColumn: PPRN
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FPRN
+		dataType: double
+		lineageTag: f9a96240-9224-4f06-a2ee-385827601975
+		summarizeBy: sum
+		sourceColumn: FPRN
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FPRN_Status
+		dataType: string
+		lineageTag: 61ab7134-a835-4f32-bc54-060618dfc199
+		summarizeBy: none
+		sourceColumn: FPRN_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column ES_C_HWAC
+		dataType: double
+		lineageTag: 86c18565-e8dc-4913-af63-ce8ccd702848
+		summarizeBy: sum
+		sourceColumn: ES_C_HWAC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ES_C_HWOA_TOT
+		dataType: double
+		lineageTag: 9a872854-6e6e-46d1-bf18-5698ad2ef01c
+		summarizeBy: sum
+		sourceColumn: ES_C_HWOA_TOT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ES_C_HWOC
+		dataType: double
+		lineageTag: c1617b48-a1c4-48fb-a2c7-79573ccc552f
+		summarizeBy: sum
+		sourceColumn: ES_C_HWOC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ES_VSO_TOT
+		dataType: double
+		lineageTag: 49f489be-3727-44ac-9aa8-d74bb3bfae07
+		summarizeBy: sum
+		sourceColumn: ES_VSO_TOT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SH_C_HWOA
+		dataType: double
+		lineageTag: a079530b-2223-41b0-a8a0-d50b79e44c60
+		summarizeBy: sum
+		sourceColumn: SH_C_HWOA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SH_C_VET
+		dataType: double
+		lineageTag: e40f27f1-4b7d-42e4-a99c-758e4cd7eb4e
+		summarizeBy: sum
+		sourceColumn: SH_C_VET
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TH_C_HWAC_TOT
+		dataType: double
+		lineageTag: 1ee75a31-2031-44eb-ad39-994fcfd03fb1
+		summarizeBy: sum
+		sourceColumn: TH_C_HWAC_TOT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TH_C_HWOA
+		dataType: double
+		lineageTag: d29c259c-2a36-4e76-9457-04a89dc49793
+		summarizeBy: sum
+		sourceColumn: TH_C_HWOA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TH_C_HWOC
+		dataType: double
+		lineageTag: 5c9f15de-89a4-4f61-bb61-cedaf182ffae
+		summarizeBy: sum
+		sourceColumn: TH_C_HWOC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TH_C_VET
+		dataType: double
+		lineageTag: 8d755c39-cede-4119-bc99-3288eda1ad61
+		summarizeBy: sum
+		sourceColumn: TH_C_VET
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_C_HWAC_TOT
+		dataType: double
+		lineageTag: 9c6838a1-5b59-45e7-824e-fba5282ab980
+		summarizeBy: sum
+		sourceColumn: PSH_C_HWAC_TOT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_C_HWOA
+		dataType: double
+		lineageTag: c40616f9-ffb7-4bad-9a9f-f4dc0d1a423f
+		summarizeBy: sum
+		sourceColumn: PSH_C_HWOA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_C_HWOC
+		dataType: double
+		lineageTag: 063d3254-bf43-4f34-b70c-f108024f9cd2
+		summarizeBy: sum
+		sourceColumn: PSH_C_HWOC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_C_CH
+		dataType: double
+		lineageTag: 78f09839-3e14-4867-b3a6-60850d1e024d
+		summarizeBy: sum
+		sourceColumn: PSH_C_CH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_C_VET
+		dataType: double
+		lineageTag: 11cc53a8-81f0-456e-a044-99e37eb9fba6
+		summarizeBy: sum
+		sourceColumn: PSH_C_VET
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_U_HWAC_TOT
+		dataType: double
+		lineageTag: 41800605-73d7-4b32-86fe-8881e92acd46
+		summarizeBy: sum
+		sourceColumn: PSH_U_HWAC_TOT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_U_HWOA
+		dataType: double
+		lineageTag: 880197f3-7356-4b33-9948-8165a8b49599
+		summarizeBy: sum
+		sourceColumn: PSH_U_HWOA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_U_HWOC
+		dataType: double
+		lineageTag: 706df536-a270-4553-b39a-339d9a492273
+		summarizeBy: sum
+		sourceColumn: PSH_U_HWOC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_U_CH
+		dataType: double
+		lineageTag: 5f48c07b-c4f0-41bf-a964-9cb12c2b0310
+		summarizeBy: sum
+		sourceColumn: PSH_U_CH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PSH_U_VET
+		dataType: double
+		lineageTag: 47de70ef-fe31-4d06-a87a-acfa25225da0
+		summarizeBy: sum
+		sourceColumn: PSH_U_VET
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RRH_C_HWAC_TOT
+		dataType: double
+		lineageTag: bc4cb2ac-989b-4ece-9a44-42a261bbb2c9
+		summarizeBy: sum
+		sourceColumn: RRH_C_HWAC_TOT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RRH_C_HWOA
+		dataType: double
+		lineageTag: b388758a-bc53-4b79-b9b5-f239e6ffea4f
+		summarizeBy: sum
+		sourceColumn: RRH_C_HWOA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RRH_C_HWOC
+		dataType: double
+		lineageTag: 5853ef12-5168-40dc-beec-e805bb52c677
+		summarizeBy: sum
+		sourceColumn: RRH_C_HWOC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RRH_C_VET
+		dataType: double
+		lineageTag: d60a4307-271e-42a1-8e1a-2105b96ad6da
+		summarizeBy: sum
+		sourceColumn: RRH_C_VET
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Unsh_Pers_HWOA
+		dataType: double
+		lineageTag: 46afdcd2-4069-4493-9e07-49d95754bd88
+		summarizeBy: sum
+		sourceColumn: Unsh_Pers_HWOA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Sh_Pers_HWOC
+		dataType: double
+		lineageTag: d697b792-3040-4a41-a517-f482afaf9b34
+		summarizeBy: sum
+		sourceColumn: Sh_Pers_HWOC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Unsh_Pers_HWOC
+		dataType: double
+		lineageTag: 7f1cc998-feb1-4598-9960-baabfd655c32
+		summarizeBy: sum
+		sourceColumn: Unsh_Pers_HWOC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Sh_Pers_HWAC
+		dataType: double
+		lineageTag: 35b2336b-3f72-4e0a-9795-8a37d4051035
+		summarizeBy: sum
+		sourceColumn: Sh_Pers_HWAC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Unsh_Pers_HWAC
+		dataType: double
+		lineageTag: 65c655c3-cdc3-4266-afdc-7c8e694a1af5
+		summarizeBy: sum
+		sourceColumn: Unsh_Pers_HWAC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Sh_CH
+		dataType: double
+		lineageTag: 5b468336-23c5-4513-afe6-4eb1d6537c74
+		summarizeBy: sum
+		sourceColumn: Sh_CH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Unsh_CH
+		dataType: double
+		lineageTag: 5206967f-013d-4fec-a83b-10b8032a126a
+		summarizeBy: sum
+		sourceColumn: Unsh_CH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Sh_Vets
+		dataType: double
+		lineageTag: 74b1f16d-4737-42db-9c54-53039715836b
+		summarizeBy: sum
+		sourceColumn: Sh_Vets
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Unsh_Vets
+		dataType: double
+		lineageTag: 2d7392aa-1413-462b-8bda-d2276d2c2555
+		summarizeBy: sum
+		sourceColumn: Unsh_Vets
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Sh_Youth_Unac
+		dataType: double
+		lineageTag: 6fd26594-a301-483c-aa3d-3cad24fe1936
+		summarizeBy: sum
+		sourceColumn: Sh_Youth_Unac
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Unsh_Youth_Unac
+		dataType: double
+		lineageTag: 82ed35a4-4e62-4092-8744-6e5ba468d195
+		summarizeBy: sum
+		sourceColumn: Unsh_Youth_Unac
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Shape_Length
+		dataType: double
+		lineageTag: f480d4f6-eede-4277-90ca-fd4f8eaf117e
+		summarizeBy: sum
+		sourceColumn: Shape_Length
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Shape_Area
+		dataType: double
+		lineageTag: 2e07ebff-5224-49a8-850d-b0bb599c1bca
+		summarizeBy: sum
+		sourceColumn: Shape_Area
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column geom
+		dataType: string
+		lineageTag: 460d89aa-ca37-4592-85a1-2504dcee46fb
+		summarizeBy: none
+		sourceColumn: geom
+
+		annotation SummarizationSetBy = Automatic
+
+	column coc_sq_mi
+		dataType: double
+		lineageTag: 56cefb09-f5f2-45fb-8657-f21ba6ddacd9
+		summarizeBy: sum
+		sourceColumn: coc_sq_mi
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column coc_hml_pit_density
+		dataType: double
+		lineageTag: aa1828e3-0c42-463c-9005-0efef48a3bd6
+		summarizeBy: sum
+		sourceColumn: coc_hml_pit_density
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column coc_hml_loc_density
+		dataType: double
+		lineageTag: a78ed779-491f-4fbc-a751-3f371d044656
+		summarizeBy: sum
+		sourceColumn: coc_hml_loc_density
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column coc_hml_bed_count_density
+		dataType: double
+		lineageTag: 3910819a-d78a-4f06-b59c-ac1f1c39980c
+		summarizeBy: sum
+		sourceColumn: coc_hml_bed_count_density
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column st
+		dataType: string
+		lineageTag: f697501e-dd13-4bed-bc01-f2c8a8c23a3b
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: st
+
+		annotation SummarizationSetBy = Automatic
+
+	column coc_num
+		dataType: string
+		lineageTag: d25834d8-09fd-4ccc-8b99-8bdbdc53ecdf
+		dataCategory: Place
+		summarizeBy: distinctCount
+		sourceColumn: coc_num
+
+		annotation SummarizationSetBy = User
+
+	column coc_name
+		dataType: string
+		lineageTag: e0bce1dd-8670-4bcb-a477-26080758418c
+		dataCategory: Place
+		summarizeBy: none
+		sourceColumn: coc_name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition coc_locations_service_area = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("dsn=PostgreSQL35W", [HierarchicalNavigation=true]),
+				    GIS_Database = Source{[Name="GIS",Kind="Database"]}[Data],
+				    public_Schema = GIS_Database{[Name="public",Kind="Schema"]}[Data],
+				    coc_locations_service_area_Table = public_Schema{[Name="coc_locations_service_area",Kind="Table"]}[Data]
+				in
+				    coc_locations_service_area_Table
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
