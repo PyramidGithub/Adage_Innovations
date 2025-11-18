@@ -1,0 +1,947 @@
+hudnum,state_name,cty_name,aland,county_fips,geoid
+TX-607,Texas,Schleicher County,3394546068,413,48413
+TX-607,Texas,Crockett County,7270935061,105,48105
+TX-607,Texas,Scurry County,2345090475,415,48415
+TX-607,Texas,Irion County,2723485993,235,48235
+TX-607,Texas,Carson County,2383397226,65,48065
+TX-607,Texas,Donley County,2401014207,129,48129
+TX-607,Texas,Nolan County,2362061769,353,48353
+TX-607,Texas,Live Oak County,2692796908,297,48297
+TX-607,Texas,Jim Hogg County,2942674728,247,48247
+TX-607,Texas,Borden County,2324366072,33,48033
+TX-607,Texas,Tyler County,2394158672,457,48457
+TX-607,Texas,Wood County,1671173034,499,48499
+TX-607,Texas,Van Zandt County,2182251753,467,48467
+TX-607,Texas,Dickens County,2335454676,125,48125
+TX-607,Texas,Rains County,594376473,379,48379
+TX-607,Texas,Tom Green County,3942790948,451,48451
+TX-607,Texas,Hockley County,2352723974,219,48219
+TX-607,Texas,Dimmit County,3441795902,127,48127
+TX-607,Texas,Colorado County,2487142714,89,48089
+TX-607,Texas,Duval County,4645084669,131,48131
+TX-607,Texas,Ward County,2164201058,475,48475
+TX-607,Texas,Nacogdoches County,2450966944,347,48347
+TX-607,Texas,Floyd County,2569637282,153,48153
+TX-607,Texas,Hopkins County,1987637219,223,48223
+TX-607,Texas,Trinity County,1796920725,455,48455
+TX-607,Texas,Fisher County,2328272083,151,48151
+TX-607,Texas,Stonewall County,2373238700,433,48433
+TX-607,Texas,Kimble County,3240024038,267,48267
+TX-607,Texas,Gray County,2398261679,179,48179
+TX-607,Texas,DeWitt County,2354237964,123,48123
+TX-607,Texas,Briscoe County,2330991073,45,48045
+TX-607,Texas,Reagan County,3044049119,383,48383
+TX-607,Texas,La Salle County,3850545746,283,48283
+TX-607,Texas,Upshur County,1509910857,459,48459
+TX-607,Texas,Morris County,652649023,343,48343
+TX-607,Texas,Roberts County,2393298442,393,48393
+TX-607,Texas,Titus County,1052317505,449,48449
+TX-607,Texas,Reeves County,6825534317,389,48389
+TX-607,Texas,Swisher County,2305502703,437,48437
+TX-607,Texas,Glasscock County,2331552974,173,48173
+TX-607,Texas,Menard County,2336237980,327,48327
+TX-607,Texas,Fayette County,2460316915,149,48149
+TX-607,Texas,Bee County,2279809489,25,48025
+TX-607,Texas,Delta County,665192724,119,48119
+TX-607,Texas,San Augustine County,1374400363,405,48405
+TX-607,Texas,Sutton County,3765674775,435,48435
+TX-607,Texas,Moore County,2330207190,341,48341
+TX-607,Texas,Hutchinson County,2298418616,233,48233
+TX-607,Texas,Mason County,2405674102,319,48319
+TX-607,Texas,Martin County,2369724588,317,48317
+TX-607,Texas,Smith County,2386635985,423,48423
+TX-607,Texas,Upton County,3215010600,461,48461
+TX-607,Texas,Polk County,2737754336,373,48373
+TX-607,Texas,Jasper County,2431105362,241,48241
+TX-607,Texas,Jim Wells County,2240795374,249,48249
+TX-607,Texas,Rusk County,2393663216,401,48401
+TX-607,Texas,Pecos County,12338274936,371,48371
+TX-607,Texas,Lynn County,2309924808,305,48305
+TX-607,Texas,Crosby County,2331503444,107,48107
+TX-607,Texas,Camp County,507242364,63,48063
+TX-607,Texas,Ector County,2325508554,135,48135
+TX-607,Texas,Lavaca County,2511535215,285,48285
+TX-607,Texas,Edwards County,5485263220,137,48137
+TX-607,Texas,McCulloch County,2759893532,307,48307
+TX-607,Texas,Gonzales County,2762704899,177,48177
+TX-607,Texas,Howard County,2333034781,227,48227
+TX-607,Texas,Goliad County,2206698612,175,48175
+TX-607,Texas,Frio County,2935753502,163,48163
+TX-607,Texas,San Saba County,2940447162,411,48411
+TX-607,Texas,Kent County,2337482031,263,48263
+TX-607,Texas,Armstrong County,2354617584,11,48011
+TX-607,Texas,Angelina County,2066462047,5,48005
+TX-607,Texas,Zavala County,3360268878,507,48507
+TX-607,Texas,Crane County,2033319685,103,48103
+TX-607,Texas,Uvalde County,4019458732,463,48463
+TX-607,Texas,McMullen County,2952066567,311,48311
+TX-607,Texas,Castro County,2316600394,69,48069
+TX-607,Texas,Cherokee County,2727137884,73,48073
+TX-607,Texas,Hardin County,2306583500,199,48199
+TX-607,Texas,Midland County,2331915322,329,48329
+TX-607,Texas,Mills County,1937892797,333,48333
+TX-607,Texas,Garza County,2313937122,169,48169
+TX-607,Texas,Concho County,2547914005,95,48095
+TX-607,Texas,Terry County,2302113089,445,48445
+TX-607,Texas,Gregg County,708052134,183,48183
+TX-607,Texas,Sterling County,2391722770,431,48431
+TX-607,Texas,Lubbock County,2319604088,303,48303
+TX-607,Texas,Runnels County,2722259321,399,48399
+TX-607,Texas,Taylor County,2371228265,441,48441
+TX-607,Texas,Lamb County,2631897586,279,48279
+TX-607,Texas,Kerr County,2857619178,265,48265
+TX-607,Texas,Coke County,2361153198,81,48081
+TX-607,Texas,Franklin County,736569934,159,48159
+TX-607,Texas,Gillespie County,2740733391,171,48171
+TX-607,Texas,Comanche County,2428768926,93,48093
+TX-607,Texas,Brown County,2446120254,49,48049
+TX-607,Texas,Jones County,2405078243,253,48253
+TX-607,Texas,Dawson County,2331781562,115,48115
+TX-607,Texas,Lampasas County,1845440046,281,48281
+TX-607,Texas,Coleman County,3270933230,83,48083
+TX-607,Texas,Callahan County,2329363243,59,48059
+TX-607,Texas,Mitchell County,2359720445,335,48335
+TX-607,Texas,Hale County,2602109424,189,48189
+TX-607,Texas,Real County,1810814896,385,48385
+TX-607,Texas,Karnes County,1936669680,255,48255
+TX-607,Texas,Brooks County,2443277014,47,48047
+TX-607,Texas,Llano County,2419218258,299,48299
+GA-501,Georgia,Pierce County,881797573,229,13229
+GA-501,Georgia,Bibb County,645898854,21,13021
+GA-501,Georgia,Taliaferro County,504029144,265,13265
+GA-501,Georgia,Putnam County,892721735,237,13237
+GA-501,Georgia,Mitchell County,1326483082,205,13205
+GA-501,Georgia,Miller County,731471756,201,13201
+GA-501,Georgia,Jones County,1020304153,169,13169
+GA-501,Georgia,Houston County,974236344,153,13153
+GA-501,Georgia,Pike County,559660486,231,13231
+GA-501,Georgia,Barrow County,417122366,13,13013
+GA-501,Georgia,Baldwin County,670028049,9,13009
+GA-501,Georgia,Toombs County,942794614,279,13279
+GA-501,Georgia,Greene County,1003664492,133,13133
+GA-501,Georgia,Warren County,736510932,301,13301
+GA-501,Georgia,Wayne County,1662287074,305,13305
+GA-501,Georgia,Twiggs County,930478094,289,13289
+GA-501,Georgia,Schley County,432291202,249,13249
+GA-501,Georgia,Crawford County,841524046,79,13079
+GA-501,Georgia,Hancock County,1220057416,141,13141
+GA-501,Georgia,Brantley County,1147972265,25,13025
+GA-501,Georgia,Webster County,543010089,307,13307
+GA-501,Georgia,Wilkinson County,1163481422,319,13319
+GA-501,Georgia,Sumter County,1250646291,261,13261
+GA-501,Georgia,Tattnall County,1245369508,267,13267
+GA-501,Georgia,Lanier County,509030779,173,13173
+GA-501,Georgia,Bacon County,735776107,5,13005
+GA-501,Georgia,Appling County,1316393793,1,13001
+GA-501,Georgia,Bleckley County,559122131,23,13023
+GA-501,Georgia,White County,623600283,311,13311
+GA-501,Georgia,Wilcox County,978525380,315,13315
+GA-501,Georgia,Pickens County,601019205,227,13227
+GA-501,Georgia,Washington County,1757374002,303,13303
+GA-501,Georgia,Wheeler County,765314382,309,13309
+GA-501,Georgia,Lamar County,475264402,171,13171
+GA-501,Georgia,Wilkes County,1216008875,317,13317
+GA-501,Georgia,Crisp County,706237949,81,13081
+GA-501,Georgia,Newton County,709175872,217,13217
+GA-501,Georgia,Emanuel County,1762679432,107,13107
+GA-501,Georgia,Bulloch County,1750735216,31,13031
+GA-501,Georgia,Gilmer County,1103804462,123,13123
+GA-501,Georgia,Taylor County,975613073,269,13269
+GA-501,Georgia,Hall County,1016489905,139,13139
+GA-501,Georgia,Telfair County,1132621092,271,13271
+GA-501,Georgia,Treutlen County,516524094,283,13283
+GA-501,Georgia,Montgomery County,624563059,209,13209
+GA-501,Georgia,Gordon County,923219316,129,13129
+GA-501,Georgia,Glascock County,372299252,125,13125
+GA-501,Georgia,Dawson County,546042252,85,13085
+GA-501,Georgia,Terrell County,869695790,273,13273
+GA-501,Georgia,Meriwether County,1297342088,199,13199
+GA-501,Georgia,Lee County,921632943,177,13177
+GA-501,Georgia,Dodge County,1284554870,91,13091
+GA-501,Georgia,Jenkins County,899705945,165,13165
+GA-501,Georgia,Laurens County,2090990052,175,13175
+GA-501,Georgia,Lumpkin County,732820611,187,13187
+GA-501,Georgia,Tift County,675702322,277,13277
+GA-501,Georgia,Long County,1037028629,183,13183
+GA-501,Georgia,Cook County,591694198,75,13075
+GA-501,Georgia,Berrien County,1174239572,19,13019
+GA-501,Georgia,Banks County,602578150,11,13011
+GA-501,Georgia,Johnson County,784815228,167,13167
+GA-501,Georgia,Colquitt County,1416897182,71,13071
+GA-501,Georgia,Pulaski County,645583958,235,13235
+GA-501,Georgia,Randolph County,1109126228,243,13243
+GA-501,Georgia,Jeff Davis County,857075892,161,13161
+GA-501,Georgia,Marion County,947213855,197,13197
+GA-501,Georgia,Atkinson County,887642157,3,13003
+GA-501,Georgia,Worth County,1478084027,321,13321
+GA-501,Georgia,Morgan County,899791082,211,13211
+GA-501,Georgia,Walton County,846460828,297,13297
+GA-501,Georgia,Jasper County,954167639,159,13159
+GA-501,Georgia,Macon County,1037709939,193,13193
+GA-501,Georgia,Coffee County,1533916511,69,13069
+GA-501,Georgia,Butts County,475754795,35,13035
+GA-501,Georgia,Spalding County,507561204,255,13255
+GA-501,Georgia,Candler County,629520842,43,13043
+GA-501,Georgia,Evans County,473690212,109,13109
+GA-501,Georgia,Upson County,837774877,293,13293
+GA-501,Georgia,Dougherty County,851183382,95,13095
+GA-501,Georgia,Peach County,389233786,225,13225
+GA-501,Georgia,Irwin County,917795237,155,13155
+GA-501,Georgia,Turner County,739227758,287,13287
+GA-501,Georgia,Baker County,885665382,7,13007
+GA-501,Georgia,Ben Hill County,647802704,17,13017
+GA-501,Georgia,Calhoun County,726191507,37,13037
+GA-501,Georgia,Dooly County,1016908643,93,13093
+GA-501,Georgia,Monroe County,1025872454,207,13207
+IN-502,Indiana,Fayette County,556901575,41,18041
+IN-502,Indiana,Huntington County,991031149,69,18069
+MI-500,Michigan,Oscoda County,1465088042,135,26135
+MO-606,Missouri,Cedar County,1228870903,39,29039
+ND-500,North Dakota,Pierce County,2637345130,69,38069
+SD-500,South Dakota,Douglas County,1118358781,43,46043
+KS-507,Kansas,Osborne County,2311604926,141,20141
+OH-507,Ohio,Harrison County,1042032638,67,39067
+IN-502,Indiana,Henry County,1014957930,65,18065
+IN-502,Indiana,Daviess County,1112436829,27,18027
+KS-507,Kansas,Kearny County,2254696659,93,20093
+KS-507,Kansas,Rush County,1858997546,165,20165
+KY-500,Kentucky,Nelson County,1084391549,179,21179
+NE-500,Nebraska,Hooker County,1867293650,91,31091
+NV-502,Nevada,Lander County,14294783207,15,32015
+OH-507,Ohio,Hardin County,1218033117,65,39065
+IN-502,Indiana,Fulton County,954133332,49,18049
+IN-502,Indiana,Whitley County,869256022,183,18183
+AR-505,Arkansas,Bradley County,1681335016,11,5011
+CO-500,Colorado,Lake County,976215866,65,8065
+CO-500,Colorado,Huerfano County,4120756305,55,8055
+MO-606,Missouri,Reynolds County,2093946390,179,29179
+ID-501,Idaho,Valley County,9492613290,85,16085
+ID-501,Idaho,Bannock County,2881332843,5,16005
+IL-520,Illinois,Edwards County,576012470,47,17047
+KY-500,Kentucky,Jackson County,894134829,109,21109
+KY-500,Kentucky,Morgan County,987053730,175,21175
+KY-500,Kentucky,Bath County,719997080,11,21011
+NC-503,North Carolina,Wilson County,952012884,195,37195
+KY-500,Kentucky,Menifee County,527162212,165,21165
+LA-505,Louisiana,Richland Parish,1439031396,83,22083
+MS-501,Mississippi,Newton County,1496417773,101,28101
+NC-503,North Carolina,Rowan County,1325062503,159,37159
+NE-500,Nebraska,Colfax County,1065675354,37,31037
+OH-507,Ohio,Shelby County,1055922235,149,39149
+MO-606,Missouri,Dent County,1949641179,65,29065
+UT-503,Utah,Wayne County,6374203167,55,49055
+WA-501,Washington,Douglas County,4711819967,17,53017
+WV-508,West Virginia,Lewis County,1002144341,41,54041
+WI-500,Wisconsin,Juneau County,1986729544,57,55057
+WI-500,Wisconsin,Eau Claire County,1652211242,35,55035
+WY-500,Wyoming,Fremont County,23785405153,13,56013
+WI-500,Wisconsin,Calumet County,824263567,15,55015
+VA-604,Virginia,Manassas city,25493247,683,51683
+WI-500,Wisconsin,Barron County,2235299817,5,55005
+NM-501,New Mexico,Los Alamos County,282626747,28,35028
+NE-500,Nebraska,Keith County,2750729960,101,31101
+SD-500,South Dakota,Clark County,2479944304,25,46025
+SD-500,South Dakota,Miner County,1476734132,97,46097
+NE-500,Nebraska,Lincoln County,6641131934,111,31111
+NE-500,Nebraska,Hamilton County,1403851003,81,31081
+WV-508,West Virginia,Randolph County,2692810852,83,54083
+IA-501,Iowa,Hancock County,1478895050,81,19081
+IL-518,Illinois,Putnam County,414649975,155,17155
+MS-501,Mississippi,Quitman County,1048975539,119,28119
+MT-500,Montana,Teton County,5883457566,99,30099
+MT-500,Montana,Meagher County,6194909927,59,30059
+MO-606,Missouri,Boone County,1775569567,19,29019
+IN-502,Indiana,Delaware County,1015558818,35,18035
+AL-507,Alabama,Marengo County,2530155124,91,1091
+KS-507,Kansas,Barton County,2318705430,9,20009
+VA-521,Virginia,Staunton city,51593818,790,51790
+IN-502,Indiana,Parke County,1151832460,121,18121
+WI-500,Wisconsin,Menominee County,926217566,78,55078
+IN-502,Indiana,Washington County,1330447135,175,18175
+IA-501,Iowa,Delaware County,1496193387,55,19055
+TX-624,Texas,Archer County,2339508193,9,48009
+IN-502,Indiana,Monroe County,1021809763,105,18105
+IA-501,Iowa,Chickasaw County,1306192617,37,19037
+KS-507,Kansas,Sheridan County,2320518304,179,20179
+MN-502,Minnesota,Steele County,1112525219,147,27147
+MN-511,Minnesota,Lyon County,1850315111,83,27083
+MS-501,Mississippi,Lee County,1165404266,81,28081
+IN-502,Indiana,Noble County,1064077378,113,18113
+CO-500,Colorado,Custer County,1913031985,27,8027
+CO-500,Colorado,Summit County,1575563219,117,8117
+CO-500,Colorado,Delta County,2958090989,29,8029
+NE-500,Nebraska,Fillmore County,1490200737,59,31059
+NE-500,Nebraska,Morrill County,3687380852,123,31123
+MS-501,Mississippi,Carroll County,1627517130,15,28015
+ID-501,Idaho,Blaine County,6831709432,13,16013
+ID-501,Idaho,Lewis County,1240141962,61,16061
+ID-501,Idaho,Camas County,2782253887,25,16025
+NC-503,North Carolina,Martin County,1182102538,117,37117
+NC-503,North Carolina,Halifax County,1874472932,83,37083
+MO-606,Missouri,St. Francois County,1170380019,187,29187
+ND-500,North Dakota,Wells County,3290664846,103,38103
+TN-507,Tennessee,Gibson County,1561102696,53,47053
+TN-503,Tennessee,Maury County,1587876683,119,47119
+KS-507,Kansas,Pawnee County,1953531638,145,20145
+KS-507,Kansas,Finney County,3372157850,55,20055
+IN-502,Indiana,Starke County,800679819,149,18149
+OK-506,Oklahoma,Kiowa County,2629039887,75,40075
+PA-601,Pennsylvania,Clarion County,1556156937,31,42031
+IN-502,Indiana,Jasper County,1449563753,73,18073
+SD-500,South Dakota,Meade County,8989677172,93,46093
+SD-500,South Dakota,Jerauld County,1362677256,73,46073
+KY-500,Kentucky,Knott County,910442831,119,21119
+KS-507,Kansas,Grant County,1488745953,67,20067
+KS-507,Kansas,Elk County,1668637027,49,20049
+KY-500,Kentucky,Owsley County,511268800,189,21189
+MS-501,Mississippi,Leflore County,1538645699,83,28083
+MS-501,Mississippi,Holmes County,1959776830,51,28051
+MO-606,Missouri,Callaway County,2161513203,27,29027
+AZ-500,Arizona,Graham County,11970605960,9,4009
+AR-503,Arkansas,Jackson County,1641044497,67,5067
+VA-500,Virginia,Henrico County,605276759,87,51087
+VA-521,Virginia,Pulaski County,828380598,155,51155
+MT-500,Montana,Custer County,9798723728,17,30017
+MT-500,Montana,Garfield County,12112233249,33,30033
+KY-500,Kentucky,Green County,740640299,87,21087
+WA-501,Washington,Grant County,6939995079,25,53025
+WV-508,West Virginia,Gilmer County,876717620,21,54021
+AL-507,Alabama,Clay County,1564255426,27,1027
+WV-508,West Virginia,Ritchie County,1170648850,85,54085
+WV-508,West Virginia,Tucker County,1085313664,93,54093
+WI-500,Wisconsin,Sawyer County,3257170153,113,55113
+IA-501,Iowa,Pocahontas County,1495047202,151,19151
+OH-507,Ohio,Knox County,1361036421,83,39083
+IA-501,Iowa,Black Hawk County,1465346456,13,19013
+AL-507,Alabama,Conecuh County,2202213383,35,1035
+NE-500,Nebraska,Rock County,2611461740,149,31149
+UT-503,Utah,Sevier County,4948109947,41,49041
+NC-503,North Carolina,Edgecombe County,1309073894,65,37065
+ND-500,North Dakota,Morton County,4988026118,59,38059
+TN-507,Tennessee,Carroll County,1547925979,17,47017
+SD-500,South Dakota,Ziebach County,5079608332,137,46137
+IA-501,Iowa,Mahaska County,1478496996,123,19123
+VA-508,Virginia,Lynchburg city,126695077,680,51680
+KS-507,Kansas,Wilson County,1477388031,205,20205
+KS-507,Kansas,Ford County,2844508251,57,20057
+TN-507,Tennessee,Madison County,1443073933,113,47113
+SD-500,South Dakota,Davison County,1128285060,35,46035
+VA-513,Virginia,Winchester city,23809501,840,51840
+WI-500,Wisconsin,Price County,3247992766,99,55099
+CO-500,Colorado,Saguache County,8206547700,109,8109
+IN-502,Indiana,Pike County,865964081,125,18125
+IA-501,Iowa,Keokuk County,1500056810,107,19107
+IA-501,Iowa,Bremer County,1127886260,17,19017
+KY-500,Kentucky,Clay County,1215470276,51,21051
+KY-500,Kentucky,Carter County,1060593553,43,21043
+CO-500,Colorado,Alamosa County,1871643028,3,8003
+MN-511,Minnesota,Chippewa County,1505366467,23,27023
+MN-506,Minnesota,Red Lake County,1119930041,125,27125
+MS-501,Mississippi,Humphreys County,1084375633,53,28053
+CO-500,Colorado,Bent County,3918255144,11,8011
+VA-521,Virginia,Norton city,19366553,720,51720
+MO-606,Missouri,Saline County,1956761954,195,29195
+MO-606,Missouri,Pulaski County,1417014585,169,29169
+MT-500,Montana,Chouteau County,10288778621,15,30015
+MT-500,Montana,Pondera County,4207608377,73,30073
+NE-500,Nebraska,Howard County,1474401357,93,31093
+NE-500,Nebraska,Logan County,1478101926,113,31113
+MO-606,Missouri,Chariton County,1945541994,41,29041
+MT-500,Montana,McCone County,6843332032,55,30055
+NE-500,Nebraska,Greeley County,1475843022,77,31077
+SD-500,South Dakota,Mellette County,3385920520,95,46095
+ND-500,North Dakota,Kidder County,3499233939,43,38043
+IN-502,Indiana,White County,1308307482,181,18181
+KY-500,Kentucky,Marion County,889793042,155,21155
+KY-500,Kentucky,Knox County,1000591254,121,21121
+AR-503,Arkansas,Van Buren County,1837779987,141,5141
+KS-507,Kansas,Rooks County,2306454195,163,20163
+AR-505,Arkansas,Calhoun County,1628067844,13,5013
+CO-503,Colorado,Denver County,396460145,31,8031
+CO-500,Colorado,Chaffee County,2624715691,15,8015
+KY-500,Kentucky,Metcalfe County,750193213,169,21169
+VA-501,Virginia,Franklin city,21438217,620,51620
+IA-501,Iowa,Webster County,1853665901,187,19187
+KS-507,Kansas,Woodson County,1289344338,207,20207
+IA-501,Iowa,Union County,1097235795,175,19175
+KS-507,Kansas,Scott County,1858536837,171,20171
+KY-500,Kentucky,Larue County,676090984,123,21123
+AR-503,Arkansas,Hempstead County,1883439299,57,5057
+SD-500,South Dakota,Lake County,1457879903,79,46079
+PA-601,Pennsylvania,Forest County,1106595595,53,42053
+MO-606,Missouri,Pettis County,1766985955,159,29159
+IN-502,Indiana,Rush County,1057069253,139,18139
+KS-507,Kansas,Gray County,2250356171,69,20069
+NE-500,Nebraska,Grant County,2011633360,75,31075
+NE-500,Nebraska,York County,1482809122,185,31185
+IL-515,Illinois,Effingham County,1240005912,49,17049
+AR-503,Arkansas,Cleburne County,1434747668,23,5023
+OK-507,Oklahoma,Coal County,1338434465,29,40029
+ND-500,North Dakota,Griggs County,1835486230,39,38039
+AR-503,Arkansas,Cross County,1596255187,37,5037
+VA-521,Virginia,Buena Vista city,16674753,530,51530
+AK-501,Alaska,Denali Borough,32740165568,68,2068
+KY-500,Kentucky,Johnson County,678488581,115,21115
+IA-501,Iowa,Jones County,1490844763,105,19105
+KY-500,Kentucky,Edmonson County,784263760,61,21061
+MO-606,Missouri,Carroll County,1799061890,33,29033
+MT-500,Montana,Sweet Grass County,4805816381,97,30097
+MT-500,Montana,Lake County,3860298502,47,30047
+MT-500,Montana,Petroleum County,4288047859,69,30069
+MT-500,Montana,Deer Lodge County,1907998869,23,30023
+NE-500,Nebraska,Loup County,1459046157,115,31115
+NE-500,Nebraska,Arthur County,1852234562,5,31005
+NV-502,Nevada,Eureka County,10814982420,11,32011
+NM-501,New Mexico,De Baca County,6016818941,11,35011
+VA-521,Virginia,Galax city,21332077,640,51640
+TN-506,Tennessee,Fentress County,1291385620,49,47049
+TN-506,Tennessee,White County,975592113,185,47185
+NE-500,Nebraska,Wayne County,1147146590,179,31179
+NE-500,Nebraska,Gosper County,1186729977,73,31073
+NE-500,Nebraska,Garden County,4415478551,69,31069
+MS-501,Mississippi,Neshoba County,1476641121,99,28099
+ND-500,North Dakota,LaMoure County,2968139578,45,38045
+UT-503,Utah,Emery County,11558171971,15,49015
+MO-606,Missouri,Hickory County,1032908448,85,29085
+WI-500,Wisconsin,Jackson County,2558687748,53,55053
+ME-500,Maine,Androscoggin County,1211995418,1,23001
+NE-500,Nebraska,Stanton County,1107564314,167,31167
+NE-500,Nebraska,Nance County,1143726728,125,31125
+KS-507,Kansas,Morris County,1800929252,127,20127
+KS-507,Kansas,Stafford County,2051389756,185,20185
+WI-500,Wisconsin,Langlade County,2255076043,67,55067
+AR-503,Arkansas,Independence County,1978003733,63,5063
+NC-503,North Carolina,Stanly County,1023253139,167,37167
+OH-507,Ohio,Logan County,1187522540,91,39091
+OH-507,Ohio,Wyandot County,1053812244,175,39175
+KY-500,Kentucky,Franklin County,538483441,73,21073
+AR-503,Arkansas,Searcy County,1724618501,129,5129
+OH-507,Ohio,Auglaize County,1039590222,11,39011
+CO-500,Colorado,Otero County,3268424309,89,8089
+SD-500,South Dakota,Hand County,3720862891,59,46059
+UT-503,Utah,Weber County,1582541439,57,49057
+MS-501,Mississippi,Yalobusha County,1209914676,161,28161
+MO-606,Missouri,Texas County,3049106816,215,29215
+SC-503,South Carolina,Florence County,2073307058,41,45041
+KY-500,Kentucky,Leslie County,1038270184,131,21131
+IN-502,Indiana,Jackson County,1320837986,71,18071
+IN-502,Indiana,Orange County,1031795759,117,18117
+KY-500,Kentucky,Ohio County,1520569117,183,21183
+KY-500,Kentucky,Hopkins County,1404258115,107,21107
+KY-500,Kentucky,Garrard County,595501702,79,21079
+KY-500,Kentucky,Breathitt County,1275366506,25,21025
+IA-501,Iowa,Cedar County,1500798725,31,19031
+KY-500,Kentucky,Mercer County,645898189,167,21167
+KY-500,Kentucky,Owen County,907757721,187,21187
+IA-501,Iowa,Adair County,1474404192,1,19001
+KS-507,Kansas,Ellis County,2330818743,51,20051
+AR-505,Arkansas,Cleveland County,1548580962,25,5025
+MS-501,Mississippi,Sunflower County,1807187010,133,28133
+NE-500,Nebraska,Dawson County,2625694521,47,31047
+CO-500,Colorado,Ouray County,1400332624,91,8091
+IN-502,Indiana,Carroll County,964057411,15,18015
+IN-502,Indiana,Grant County,1072484434,53,18053
+NM-501,New Mexico,Harding County,5504963122,21,35021
+IN-502,Indiana,Kosciusko County,1376439341,85,18085
+NM-501,New Mexico,Sierra County,10829293032,51,35051
+MO-606,Missouri,Henry County,1805056177,83,29083
+KS-507,Kansas,Graham County,2327173853,65,20065
+NC-503,North Carolina,Nash County,1399742907,127,37127
+KS-507,Kansas,Mitchell County,1817632931,123,20123
+TN-507,Tennessee,Crockett County,687714872,33,47033
+TN-506,Tennessee,Putnam County,1038860592,141,47141
+KS-507,Kansas,Dickinson County,2193895358,41,20041
+IN-502,Indiana,Pulaski County,1123220666,131,18131
+ND-500,North Dakota,Ramsey County,3070086476,71,38071
+OH-507,Ohio,Huron County,1274906337,77,39077
+IN-502,Indiana,Madison County,1170470094,95,18095
+IN-502,Indiana,Greene County,1404983932,55,18055
+PA-509,Pennsylvania,Huntingdon County,2265182334,61,42061
+IA-501,Iowa,Adams County,1096686253,3,19003
+SD-500,South Dakota,Stanley County,3741071614,117,46117
+KS-507,Kansas,Thomas County,2783425503,193,20193
+KY-500,Kentucky,Perry County,879880330,193,21193
+NE-500,Nebraska,Garfield County,1474624515,71,31071
+NE-500,Nebraska,Blaine County,1840709884,9,31009
+KY-500,Kentucky,Nicholas County,505839859,181,21181
+KY-500,Kentucky,Harrison County,793722604,97,21097
+KY-500,Kentucky,Elliott County,606888298,63,21063
+MI-500,Michigan,Gladwin County,1299622802,51,26051
+MN-505,Minnesota,Morrison County,2913980992,97,27097
+AR-503,Arkansas,Pike County,1554861226,109,5109
+MS-501,Mississippi,Calhoun County,1519218292,13,28013
+MO-606,Missouri,Madison County,1280453084,123,29123
+MO-606,Missouri,Stoddard County,2131929141,207,29207
+MT-500,Montana,Judith Basin County,4842466557,45,30045
+MT-500,Montana,Cascade County,6988320233,13,30013
+MT-500,Montana,Broadwater County,3088195857,7,30007
+MT-500,Montana,Lewis and Clark County,8957164719,49,30049
+MT-500,Montana,Fergus County,11238811039,27,30027
+MT-500,Montana,Golden Valley County,3041740574,37,30037
+MT-500,Montana,Granite County,4473328974,39,30039
+AR-503,Arkansas,Lawrence County,1521690359,75,5075
+VA-521,Virginia,Lunenburg County,1118097708,111,51111
+KY-500,Kentucky,Casey County,1150621984,45,21045
+WV-508,West Virginia,Barbour County,883338376,1,54001
+WI-500,Wisconsin,Adams County,1672216223,1,55001
+MO-606,Missouri,Howard County,1201239500,89,29089
+MO-606,Missouri,Wayne County,1966281375,223,29223
+NE-500,Nebraska,Antelope County,2220026333,3,31003
+NM-501,New Mexico,Santa Fe County,4947861289,49,35049
+WI-500,Wisconsin,Marquette County,1180290400,77,55077
+OH-507,Ohio,Marion County,1045855309,101,39101
+OH-507,Ohio,Morrow County,1051881045,117,39117
+ND-500,North Dakota,McLean County,5465578831,55,38055
+ND-500,North Dakota,Billings County,2974571266,7,38007
+SC-503,South Carolina,Marion County,1267466471,67,45067
+KS-507,Kansas,Lyon County,2194958224,111,20111
+KS-507,Kansas,Russell County,2295402859,167,20167
+SD-500,South Dakota,Potter County,2230336533,107,46107
+SD-500,South Dakota,Day County,2663777414,37,46037
+SD-500,South Dakota,Kingsbury County,2155483579,77,46077
+UT-503,Utah,Garfield County,13414986703,17,49017
+SD-500,South Dakota,Hamlin County,1313301309,57,46057
+WY-500,Wyoming,Sublette County,12655929029,35,56035
+CO-500,Colorado,Eagle County,4362757707,37,8037
+KY-500,Kentucky,Washington County,769962860,229,21229
+ND-500,North Dakota,Stark County,3457408928,89,38089
+KY-500,Kentucky,Caldwell County,893117876,33,21033
+MO-606,Missouri,Benton County,1823437752,15,29015
+MT-500,Montana,Rosebud County,12971010184,87,30087
+ND-500,North Dakota,Stutsman County,5754703472,93,38093
+KS-507,Kansas,Marion County,2445722725,115,20115
+MN-508,Minnesota,Grant County,1418795379,51,27051
+IA-501,Iowa,Palo Alto County,1460400552,147,19147
+IA-501,Iowa,Sac County,1489300198,161,19161
+IN-502,Indiana,Cass County,1067448399,17,18017
+KY-500,Kentucky,Anderson County,523850042,5,21005
+AR-503,Arkansas,Poinsett County,1963975401,111,5111
+KY-500,Kentucky,Hart County,1068809187,99,21099
+AR-503,Arkansas,St. Francis County,1644082975,123,5123
+VA-521,Virginia,Martinsville city,28374648,690,51690
+VA-513,Virginia,Harrisonburg city,44898874,660,51660
+WI-500,Wisconsin,Wood County,2053911643,141,55141
+WY-500,Wyoming,Platte County,5390953605,31,56031
+WY-500,Wyoming,Washakie County,5798152465,43,56043
+SC-503,South Carolina,Lee County,1062378291,61,45061
+SD-500,South Dakota,Dewey County,5963127471,41,46041
+SD-500,South Dakota,Hyde County,2229019409,69,46069
+LA-505,Louisiana,West Carroll Parish,931582171,123,22123
+MS-501,Mississippi,Tate County,1048332525,137,28137
+KS-507,Kansas,Ellsworth County,1853331065,53,20053
+OH-507,Ohio,Allen County,1042587391,3,39003
+OH-507,Ohio,Champaign County,1111045220,21,39021
+IN-502,Indiana,Howard County,759058623,67,18067
+IN-502,Indiana,Brown County,808043847,13,18013
+OH-507,Ohio,Muskingum County,1721165824,119,39119
+OH-507,Ohio,Richland County,1282631595,139,39139
+OH-507,Ohio,Vinton County,1068008170,163,39163
+MO-606,Missouri,Monroe County,1677380360,137,29137
+OH-507,Ohio,Clinton County,1058609497,27,39027
+OH-507,Ohio,Morgan County,1078538281,115,39115
+OH-507,Ohio,Crawford County,1040619655,33,39033
+KY-500,Kentucky,Fleming County,903057248,69,21069
+KS-507,Kansas,Allen County,1295764235,1,20001
+LA-500,Louisiana,Lafayette Parish,696257609,55,22055
+MI-500,Michigan,Montmorency County,1415881030,119,26119
+MT-500,Montana,Powell County,6024423559,77,30077
+NC-503,North Carolina,Pitt County,1689620170,147,37147
+NC-503,North Carolina,Jackson County,1271968586,99,37099
+ND-500,North Dakota,Grant County,4297393834,37,38037
+KS-507,Kansas,Hodgeman County,2227369152,83,20083
+KS-507,Kansas,Riley County,1579010807,161,20161
+KY-500,Kentucky,Rowan County,724888657,205,21205
+NE-500,Nebraska,Wheeler County,1489717918,183,31183
+KY-500,Kentucky,Marshall County,782502718,157,21157
+IA-501,Iowa,Buena Vista County,1488981877,21,19021
+CO-500,Colorado,San Juan County,1003660671,111,8111
+IN-502,Indiana,Putnam County,1244583014,133,18133
+SD-500,South Dakota,Haakon County,4689279889,55,46055
+MT-500,Montana,Jefferson County,4291603021,43,30043
+VA-505,Virginia,Williamsburg city,23149768,830,51830
+KY-500,Kentucky,Powell County,463508964,197,21197
+IN-502,Indiana,Clinton County,1049119187,23,18023
+KY-500,Kentucky,Floyd County,1018643078,71,21071
+TX-624,Texas,Young County,2368539758,503,48503
+SD-500,South Dakota,Jones County,2511427872,75,46075
+VA-521,Virginia,Waynesboro city,38771594,820,51820
+NM-501,New Mexico,Grant County,10259478297,17,35017
+KY-500,Kentucky,Muhlenberg County,1210250704,177,21177
+ME-500,Maine,Piscataquis County,10258545867,21,23021
+KY-500,Kentucky,Rockcastle County,819904083,203,21203
+MT-500,Montana,Silver Bow County,1859585000,93,30093
+OH-507,Ohio,Hocking County,1091289822,73,39073
+SD-500,South Dakota,Hutchinson County,2105694668,67,46067
+TN-506,Tennessee,DeKalb County,788475293,41,47041
+KS-507,Kansas,Wichita County,1861078197,203,20203
+AL-507,Alabama,Perry County,1863936201,105,1105
+SD-500,South Dakota,Hughes County,1920546196,65,46065
+SD-500,South Dakota,Faulk County,2542625555,49,46049
+SD-500,South Dakota,Turner County,1598188443,125,46125
+SD-500,South Dakota,Sanborn County,1474329217,111,46111
+IA-501,Iowa,Fayette County,1892806759,65,19065
+OH-507,Ohio,Guernsey County,1352599522,59,39059
+OH-507,Ohio,Seneca County,1427151723,147,39147
+KS-507,Kansas,Haskell County,1495772621,81,20081
+WV-508,West Virginia,Upshur County,918506904,97,54097
+IA-501,Iowa,Linn County,1857054769,113,19113
+ND-500,North Dakota,Mountrail County,4727150575,61,38061
+ND-500,North Dakota,McHenry County,4853487958,49,38049
+TN-506,Tennessee,Jackson County,799813547,87,47087
+WY-500,Wyoming,Johnson County,10759204100,19,56019
+OH-507,Ohio,Pike County,1140325074,131,39131
+MO-606,Missouri,Bollinger County,1600364576,17,29017
+IA-501,Iowa,Crawford County,1849765408,47,19047
+IA-501,Iowa,Lucas County,1115458270,117,19117
+ND-500,North Dakota,Oliver County,1871017447,65,38065
+MO-606,Missouri,Osage County,1571034361,151,29151
+MO-606,Missouri,Macon County,2075118027,121,29121
+OH-507,Ohio,Putnam County,1249784147,137,39137
+KY-500,Kentucky,Pulaski County,1704469863,199,21199
+KY-500,Kentucky,Robertson County,257938637,201,21201
+MN-502,Minnesota,Dodge County,1138031306,39,27039
+ID-501,Idaho,Madison County,1215396274,65,16065
+IN-502,Indiana,Fountain County,1024774339,45,18045
+IN-502,Indiana,Miami County,968246955,103,18103
+MN-506,Minnesota,Pennington County,1596779102,113,27113
+KY-500,Kentucky,McLean County,654037067,149,21149
+KY-500,Kentucky,Adair County,1049702547,1,21001
+NM-501,New Mexico,Torrance County,8664061395,57,35057
+KY-500,Kentucky,Boyle County,467067884,21,21021
+MI-500,Michigan,Isabella County,1483287228,73,26073
+IA-501,Iowa,Iowa County,1518911686,95,19095
+KY-500,Kentucky,Webster County,859944623,233,21233
+IA-501,Iowa,Wright County,1503260264,197,19197
+ND-500,North Dakota,Mercer County,2700790016,57,38057
+ND-500,North Dakota,Steele County,1844441513,91,38091
+ND-500,North Dakota,Sheridan County,2518053313,83,38083
+KS-507,Kansas,McPherson County,2326547432,113,20113
+KS-507,Kansas,Pratt County,1903740938,151,20151
+IN-502,Indiana,Marshall County,1148964732,99,18099
+MI-500,Michigan,Clare County,1461704502,35,26035
+MO-606,Missouri,Cole County,1014062403,51,29051
+MS-501,Mississippi,Grenada County,1093291104,43,28043
+IL-518,Illinois,Henry County,2131719313,73,17073
+WI-500,Wisconsin,Waushara County,1621749747,137,55137
+WY-500,Wyoming,Converse County,11020383702,9,56009
+VA-502,Virginia,Roanoke city,110129888,770,51770
+ND-500,North Dakota,Nelson County,2542889239,63,38063
+ND-500,North Dakota,Logan County,2570819014,47,38047
+TN-503,Tennessee,Lewis County,730614741,101,47101
+TN-506,Tennessee,Overton County,1122727661,133,47133
+IL-518,Illinois,Bureau County,2250884560,11,17011
+MT-500,Montana,Prairie County,4497780200,79,30079
+MS-501,Mississippi,Tallahatchie County,1672069540,135,28135
+WI-500,Wisconsin,Richland County,1518120286,103,55103
+WI-500,Wisconsin,Waupaca County,1936538048,135,55135
+WI-500,Wisconsin,Outagamie County,1651266091,87,55087
+OH-507,Ohio,Noble County,1030846430,121,39121
+PA-601,Pennsylvania,Jefferson County,1689811408,65,42065
+KY-500,Kentucky,Wolfe County,575390049,237,21237
+KY-500,Kentucky,Magoffin County,798864848,153,21153
+VA-504,Virginia,Charlottesville city,26535237,540,51540
+VA-521,Virginia,Emporia city,17168108,595,51595
+VA-601,Virginia,Fairfax city,16163924,600,51600
+VA-521,Virginia,Lexington city,6473000,678,51678
+WV-508,West Virginia,Webster County,1433479488,101,54101
+MN-505,Minnesota,Benton County,1057499903,9,27009
+WA-501,Washington,Adams County,4985698853,1,53001
+WI-500,Wisconsin,Winnebago County,1125861149,139,55139
+WI-500,Wisconsin,Clark County,3133102386,19,55019
+MO-606,Missouri,Linn County,1594366554,115,29115
+NC-503,North Carolina,Lee County,660633151,105,37105
+MO-606,Missouri,Moniteau County,1074931226,135,29135
+ND-500,North Dakota,Ransom County,2233792872,73,38073
+NM-501,New Mexico,Mora County,4988962636,33,35033
+NC-503,North Carolina,Greene County,690838975,79,37079
+NC-503,North Carolina,Montgomery County,1273075626,123,37123
+ND-500,North Dakota,Foster County,1642258768,31,38031
+WI-500,Wisconsin,Taylor County,2525374174,119,55119
+OK-507,Oklahoma,Latimer County,1870264427,77,40077
+AK-501,Alaska,Fairbanks North Star Borough,18997105007,90,2090
+MN-502,Minnesota,Blue Earth County,1936886801,13,27013
+IA-501,Iowa,Jefferson County,1128002441,101,19101
+IA-501,Iowa,Poweshiek County,1514966025,157,19157
+MO-606,Missouri,Adair County,1469362058,1,29001
+IA-501,Iowa,Franklin County,1507300416,69,19069
+IA-501,Iowa,Hardin County,1474498037,83,19083
+MO-606,Missouri,Camden County,1699124112,29,29029
+PA-601,Pennsylvania,Armstrong County,1692093660,5,42005
+MI-500,Michigan,Lake County,1470063806,85,26085
+MS-501,Mississippi,Chickasaw County,1299608408,17,28017
+KS-507,Kansas,Chase County,2002198770,17,20017
+SD-500,South Dakota,Lyman County,4253498698,85,46085
+KS-507,Kansas,Kiowa County,1871627808,97,20097
+KY-500,Kentucky,Laurel County,1123286185,125,21125
+IN-502,Indiana,Montgomery County,1307042310,107,18107
+ID-501,Idaho,Power County,3635892403,77,16077
+IL-515,Illinois,Cumberland County,895989980,35,17035
+NE-500,Nebraska,McPherson County,2225470205,117,31117
+NC-503,North Carolina,Jones County,1220836956,103,37103
+IN-502,Indiana,Wabash County,1068471084,169,18169
+ID-501,Idaho,Butte County,5792474009,23,16023
+NE-500,Nebraska,Thomas County,1845505749,171,31171
+NM-501,New Mexico,Valencia County,2762783462,61,35061
+ND-500,North Dakota,Benson County,3596341571,5,38005
+KY-500,Kentucky,Estill County,655477008,65,21065
+SC-503,South Carolina,Darlington County,1452022412,31,45031
+VA-521,Virginia,Russell County,1226421372,167,51167
+IA-501,Iowa,Johnson County,1587655791,103,19103
+OR-505,Oregon,Union County,5275651491,61,41061
+WI-500,Wisconsin,Lincoln County,2275848027,69,55069
+AR-503,Arkansas,Conway County,1429476459,29,5029
+VA-604,Virginia,Manassas Park city,7857548,685,51685
+KY-500,Kentucky,Butler County,1103624033,31,21031
+KY-500,Kentucky,Taylor County,690009859,217,21217
+CO-500,Colorado,Hinsdale County,2893614472,53,8053
+KY-500,Kentucky,Grayson County,1293793033,85,21085
+SD-500,South Dakota,Jackson County,4827433507,71,46071
+IA-501,Iowa,Washington County,1473258532,183,19183
+NC-503,North Carolina,Wayne County,1434651140,191,37191
+KS-507,Kansas,Trego County,2303727357,195,20195
+ND-500,North Dakota,Barnes County,3863120991,3,38003
+ND-500,North Dakota,Ward County,5213721242,101,38101
+TN-507,Tennessee,Henderson County,1346816752,77,47077
+IA-501,Iowa,Clarke County,1116573608,39,19039
+PR-503,Puerto Rico,San Germán Municipio,141145285,125,72125
+IA-501,Iowa,Buchanan County,1479101373,19,19019
+IA-501,Iowa,Greene County,1475148025,73,19073
+IA-501,Iowa,Guthrie County,1529683429,77,19077
+PA-509,Pennsylvania,Mifflin County,1064581429,87,42087
+PR-502,Puerto Rico,Corozal Municipio,110244080,47,72047
+AR-503,Arkansas,Stone County,1570673289,137,5137
+IA-501,Iowa,Humboldt County,1125017996,91,19091
+IA-501,Iowa,Audubon County,1147262317,9,19009
+MO-606,Missouri,Crawford County,1923005886,55,29055
+KS-507,Kansas,Geary County,996243011,61,20061
+KS-507,Kansas,Lincoln County,1863236817,105,20105
+WI-500,Wisconsin,Green Lake County,905306376,47,55047
+MN-511,Minnesota,Murray County,1825079943,101,27101
+MS-501,Mississippi,Sharkey County,1118149684,125,28125
+TN-509,Tennessee,Washington County,845756033,179,47179
+KS-507,Kansas,Coffey County,1623623909,31,20031
+KS-507,Kansas,Rice County,1880940817,159,20159
+KY-500,Kentucky,Warren County,1403072921,227,21227
+NM-501,New Mexico,San Miguel County,12228666259,47,35047
+NM-501,New Mexico,Chaves County,15713917209,5,35005
+KY-500,Kentucky,Lincoln County,862216841,137,21137
+KY-500,Kentucky,Lee County,540843067,129,21129
+IA-501,Iowa,Monroe County,1123299098,135,19135
+ND-500,North Dakota,Burleigh County,4228659157,15,38015
+ID-501,Idaho,Gooding County,1888935793,47,16047
+ID-501,Idaho,Custer County,12748378762,37,16037
+IL-520,Illinois,Perry County,1144587283,145,17145
+IL-520,Illinois,Hamilton County,1125731581,65,17065
+KS-507,Kansas,Lane County,1858080223,101,20101
+KS-507,Kansas,Anderson County,1501263984,3,20003
+KS-507,Kansas,Greenwood County,2961143637,73,20073
+MS-501,Mississippi,Jones County,1799639019,67,28067
+MS-501,Mississippi,Winston County,1572773192,159,28159
+MN-502,Minnesota,Olmsted County,1692580704,109,27109
+IN-502,Indiana,Ripley County,1156251882,137,18137
+IN-502,Indiana,Owen County,997909064,119,18119
+IA-501,Iowa,Cerro Gordo County,1471896012,33,19033
+VA-521,Virginia,Smyth County,1169221995,173,51173
+VA-521,Virginia,Radford city,25061729,750,51750
+VA-514,Virginia,Fredericksburg city,27066498,630,51630
+SD-500,South Dakota,Buffalo County,1220933806,17,46017
+TN-507,Tennessee,Haywood County,1380741525,75,47075
+TN-507,Tennessee,Chester County,740053475,23,47023
+OK-507,Oklahoma,McIntosh County,1601364434,91,40091
+PA-509,Pennsylvania,Montour County,337556585,93,42093
+SD-500,South Dakota,McCook County,1487184885,87,46087
+MO-606,Missouri,Miller County,1534756299,131,29131
+WV-508,West Virginia,Wirt County,602201076,105,54105
+WI-500,Wisconsin,Portage County,2074252978,97,55097
+MO-606,Missouri,Knox County,1305380273,103,29103
+OK-505,Oklahoma,Mayes County,1697286678,97,40097
+MN-502,Minnesota,Waseca County,1096499590,161,27161
+WI-500,Wisconsin,Rusk County,2365981757,107,55107
+IN-502,Indiana,Lawrence County,1163282516,93,18093
+OK-507,Oklahoma,Pushmataha County,3614431958,127,40127
+MS-501,Mississippi,Oktibbeha County,1186834308,105,28105
+OK-503,Oklahoma,Woodward County,3218801189,153,40153
+OK-507,Oklahoma,Johnston County,1665492483,69,40069
+MS-501,Mississippi,Pontotoc County,1289330915,115,28115
+IN-502,Indiana,Wells County,953341278,179,18179
+MS-501,Mississippi,Choctaw County,1083125336,19,28019
+MO-606,Missouri,Shannon County,2599881424,203,29203
+MO-606,Missouri,Grundy County,1127403257,79,29079
+IA-501,Iowa,Clay County,1469139451,41,19041
+PA-509,Pennsylvania,Snyder County,851547198,109,42109
+MO-606,Missouri,Randolph County,1250220621,175,29175
+MO-606,Missouri,Livingston County,1378657549,117,29117
+MO-606,Missouri,Maries County,1364873607,125,29125
+MO-606,Missouri,Shelby County,1297230223,205,29205
+OH-507,Ohio,Ashland County,1095528191,5,39005
+MO-606,Missouri,St. Clair County,1748193268,185,29185
+MT-500,Montana,Wheatland County,3684208395,107,30107
+OH-507,Ohio,Coshocton County,1460521588,31,39031
+OH-507,Ohio,Fayette County,1052469885,47,39047
+NE-500,Nebraska,Holt County,6246663903,89,31089
+NE-500,Nebraska,Hall County,1415504336,79,31079
+NE-500,Nebraska,Madison County,1483057694,119,31119
+AR-505,Arkansas,Lincoln County,1449008946,79,5079
+NE-500,Nebraska,Buffalo County,2507745799,19,31019
+NE-500,Nebraska,Seward County,1479997498,159,31159
+NE-500,Nebraska,Adams County,1458836771,1,31001
+LA-509,Louisiana,West Baton Rouge Parish,498174685,121,22121
+NE-500,Nebraska,Platte County,1748547664,141,31141
+OH-507,Ohio,Highland County,1432479978,71,39071
+OH-507,Ohio,Hancock County,1376122055,63,39063
+KY-500,Kentucky,Henry County,741386891,103,21103
+NE-500,Nebraska,Polk County,1136569018,143,31143
+LA-505,Louisiana,Ouachita Parish,1580797958,73,22073
+NE-500,Nebraska,Hayes County,1846829900,85,31085
+ME-500,Maine,Kennebec County,2246739232,11,23011
+MI-500,Michigan,Mecosta County,1437843579,107,26107
+VA-502,Virginia,Covington city,14163840,580,51580
+OK-506,Oklahoma,Greer County,1655740226,55,40055
+MI-500,Michigan,Osceola County,1466674408,133,26133
+IA-501,Iowa,Calhoun County,1475894595,25,19025
+NE-500,Nebraska,Frontier County,2524345615,63,31063
+IN-502,Indiana,Clay County,926180651,21,18021
+SD-500,South Dakota,Hanson County,1125562867,61,46061
+SD-500,South Dakota,Edmunds County,2916275921,45,46045
+ID-501,Idaho,Jefferson County,2832619467,51,16051
+AR-503,Arkansas,Izard County,1502713748,65,5065
+CO-500,Colorado,Crowley County,2039427879,25,8025
+PA-509,Pennsylvania,Union County,818323669,119,42119
+IL-520,Illinois,Saline County,984184202,165,17165
+IN-502,Indiana,Decatur County,964946131,31,18031
+IA-501,Iowa,Benton County,1854696282,11,19011
+IL-519,Illinois,Brown County,791828625,9,17009
+PA-601,Pennsylvania,Elk County,2141664026,47,42047
+NE-500,Nebraska,Butler County,1514595610,23,31023
+NE-500,Nebraska,Sherman County,1465613588,163,31163
+MT-500,Montana,Musselshell County,4840577739,65,30065
+NC-503,North Carolina,Lenoir County,1033630007,107,37107
+NM-501,New Mexico,Socorro County,17214061584,53,35053
+ND-500,North Dakota,Eddy County,1632310789,27,38027
+SD-500,South Dakota,Codington County,1780837002,29,46029
+ND-500,North Dakota,Dunn County,5201969453,25,38025
+PR-503,Puerto Rico,Hormigueros Municipio,29384895,67,72067
+OK-507,Oklahoma,Pittsburg County,3381261521,121,40121
+IN-502,Indiana,Martin County,869615719,101,18101
+NE-500,Nebraska,Saline County,1486835320,151,31151
+ME-500,Maine,Penobscot County,8798671486,19,23019
+ID-501,Idaho,Bingham County,5422741966,11,16011
+MS-501,Mississippi,Montgomery County,1054074831,97,28097
+IN-502,Indiana,Tipton County,674797600,159,18159
+MS-501,Mississippi,Prentiss County,1074806610,117,28117
+MS-501,Mississippi,Panola County,1774607343,107,28107
+MS-501,Mississippi,Franklin County,1460658822,37,28037
+PR-503,Puerto Rico,Moca Municipio,130383563,99,72099
+KS-507,Kansas,Logan County,2779039726,109,20109
+KS-507,Kansas,Neosho County,1480129690,133,20133
+KY-500,Kentucky,Barren County,1262269998,9,21009
+NE-500,Nebraska,Custer County,6670405021,41,31041
+KY-500,Kentucky,Lyon County,553700579,143,21143
+KY-500,Kentucky,Montgomery County,511202049,173,21173
+VA-521,Virginia,Nottoway County,814265583,135,51135
+CO-500,Colorado,Gunnison County,8389334149,51,8051
+WI-500,Wisconsin,Chippewa County,2611628498,17,55017
+WI-500,Wisconsin,Dunn County,2201902873,33,55033
+MS-501,Mississippi,Jasper County,1751636189,61,28061
+WI-500,Wisconsin,Shawano County,2313441779,115,55115
+IN-502,Indiana,Tippecanoe County,1292138877,157,18157
+IA-501,Iowa,Tama County,1867410504,171,19171
+MT-500,Montana,Yellowstone County,6820475325,111,30111
+NE-500,Nebraska,Clay County,1482222874,35,31035
+NE-500,Nebraska,Brown County,3163423492,17,31017
+NE-500,Nebraska,Phelps County,1397985731,137,31137
+SD-500,South Dakota,Walworth County,1832300796,129,46129
+MS-501,Mississippi,Clay County,1062098110,25,28025
+MO-606,Missouri,Carter County,1314052440,35,29035
+NE-500,Nebraska,Box Butte County,2784653173,13,31013
+OH-507,Ohio,Ross County,1784931094,141,39141
+SD-500,South Dakota,Aurora County,1834902864,3,46003
+OK-506,Oklahoma,Comanche County,2769531015,31,40031
+IN-502,Indiana,Bartholomew County,1053968865,5,18005
+KS-507,Kansas,Edwards County,1610699241,47,20047
+NE-500,Nebraska,Valley County,1471346018,175,31175
+IN-502,Indiana,Dubois County,1106616363,37,18037
+NH-500,New Hampshire,Belknap County,1040786578,1,33001
+MS-501,Mississippi,Jefferson Davis County,1057871277,65,28065
+AR-505,Arkansas,Drew County,2146237578,43,5043
+CO-500,Colorado,Mineral County,2268209076,79,8079
+IL-515,Illinois,Coles County,1316418029,29,17029
+PR-503,Puerto Rico,Las Piedras Municipio,87748419,85,72085
+ND-500,North Dakota,Hettinger County,2932485807,41,38041
+SD-500,South Dakota,Beadle County,3260011479,5,46005
+MO-606,Missouri,Audrain County,1792918420,7,29007
+IL-520,Illinois,Franklin County,1059114973,55,17055
+NM-501,New Mexico,Lincoln County,12512530052,27,35027
+WI-500,Wisconsin,Monroe County,2333329776,81,55081
+VA-502,Virginia,Salem city,37597966,775,51775
+OH-507,Ohio,Perry County,1056560151,127,39127
+WY-500,Wyoming,Natrona County,13831927739,25,56025
+OK-507,Oklahoma,Atoka County,2526412626,5,40005
+SD-500,South Dakota,Spink County,3894043728,115,46115
+KY-500,Kentucky,Russell County,655941463,207,21207
+IL-520,Illinois,Johnson County,890274204,87,17087
+NM-501,New Mexico,Guadalupe County,7847072134,19,35019
+IA-501,Iowa,Henry County,1124800193,87,19087
+IA-501,Iowa,Carroll County,1474877202,27,19027
+MO-606,Missouri,Morgan County,1547866671,141,29141
+MT-500,Montana,Dawson County,6143260035,21,30021
+KS-507,Kansas,Cloud County,1852726653,29,20029
+VA-521,Virginia,Wythe County,1196450505,197,51197
+PR-502,Puerto Rico,Naranjito Municipio,70969175,105,72105
+LA-509,Louisiana,St. James Parish,616057913,93,22093
+IL-520,Illinois,Williamson County,1088339997,199,17199
+VA-500,Virginia,Richmond city,155205068,760,51760
+MS-501,Mississippi,Union County,1076417817,145,28145
+MS-501,Mississippi,Covington County,1071784951,31,28031
+IA-501,Iowa,Butler County,1502550827,23,19023
+IA-501,Iowa,Floyd County,1296471925,67,19067
+MO-606,Missouri,Cooper County,1462684613,53,29053
+MO-606,Missouri,Iron County,1425174276,93,29093
+MT-500,Montana,Stillwater County,4652992769,95,30095
+MT-500,Montana,Treasure County,2532492074,103,30103
+ID-501,Idaho,Lincoln County,3111517506,63,16063
+IA-501,Iowa,Grundy County,1299799697,75,19075
+IA-501,Iowa,O'Brien County,1484153947,141,19141
+KS-507,Kansas,Ness County,2783562239,135,20135
+NE-500,Nebraska,Cuming County,1477563042,39,31039
+SD-500,South Dakota,Brule County,2116594418,15,46015
+KS-507,Kansas,Saline County,1865419231,169,20169
+ID-501,Idaho,Jerome County,1547629732,53,16053
+CO-500,Colorado,Pitkin County,2514104901,97,8097
+IN-502,Indiana,Jennings County,975382327,79,18079
+PR-503,Puerto Rico,Sabana Grande Municipio,94011778,121,72121
+PA-601,Pennsylvania,Venango County,1746337769,121,42121
+MS-501,Mississippi,Lafayette County,1636088510,71,28071
+MO-606,Missouri,Sullivan County,1678265912,211,29211
+NE-500,Nebraska,Pierce County,1484707028,139,31139
+IL-520,Illinois,Jefferson County,1479490501,81,17081
+IA-501,Iowa,Marshall County,1482776070,127,19127
+WI-500,Wisconsin,Marathon County,4002148704,73,55073
+CO-500,Colorado,Rio Grande County,2361956084,105,8105
+PR-502,Puerto Rico,Toa Alta Municipio,69983334,135,72135
+WI-500,Wisconsin,Oneida County,2885102804,85,55085
+IA-501,Iowa,Hamilton County,1493725532,79,19079
+IA-501,Iowa,Wapello County,1118466903,179,19179
+WV-508,West Virginia,Taylor County,447475054,91,54091
+ID-501,Idaho,Minidoka County,1961208116,67,16067
+KS-507,Kansas,Gove County,2775601941,63,20063
+MO-606,Missouri,Washington County,1968043965,221,29221
+NE-500,Nebraska,Merrick County,1263381774,121,31121
+NE-500,Nebraska,Kearney County,1336933472,99,31099
+NE-500,Nebraska,Johnson County,974059402,97,31097
+NE-500,Nebraska,Boone County,1778104027,11,31011
+KS-507,Kansas,Clay County,1671314414,27,20027
+WI-500,Wisconsin,Washburn County,2064515983,129,55129
+KY-500,Kentucky,Grant County,668154706,81,21081
+IN-502,Indiana,Blackford County,427559406,9,18009
+OH-507,Ohio,Jackson County,1088598926,79,39079
+KS-507,Kansas,Ottawa County,1866683176,143,20143
+WA-501,Washington,Franklin County,3215718475,21,53021
+SD-500,South Dakota,Sully County,2607411016,119,46119
+PR-503,Puerto Rico,San Lorenzo Municipio,137547961,129,72129
+UT-503,Utah,Piute County,1963753824,31,49031
+WI-500,Wisconsin,Fond du Lac County,1863667254,39,55039
+IN-502,Indiana,Scott County,493140265,143,18143
+WY-500,Wyoming,Hot Springs County,5191453509,17,56017
+MS-501,Mississippi,Webster County,1090793737,155,28155
+MO-606,Missouri,Phelps County,1739921375,161,29161
